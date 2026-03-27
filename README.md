@@ -26,6 +26,6 @@ http://localhost:8080
 -HTML
 -CSS
 -Docker
-_Nginx
+-Nginx
 -Shell Scripting
 
