@@ -14,13 +14,13 @@ This is a static Amazon Clone built using HTML and CSS deployed using Docker.
 docker build -t amazon-clone .
 
 ### Run Container
-docker run -d -p 8080:80 amazon-clone
+docker run -d -p 8081:80 amazon-clone
 
 ## Auto Deployment
 ./deploy.sh
 
 ## Acess
-http://localhost:8080
+http://localhost:8081
 
 ## Tech Stack
 -HTML
