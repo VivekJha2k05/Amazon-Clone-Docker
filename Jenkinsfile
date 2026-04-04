@@ -4,7 +4,7 @@ pipeline {
     stages {
       stage('Clone Code') {
       steps {
-          git 'https://github.com/VivekJha2k05/Amazon-Clone-Docker.git'
+          git branch: 'main', url: 'https://github.com/VivekJha2k05/Amazon-Clone-Docker.git'
        }
    }
 
