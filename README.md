@@ -1,31 +1,50 @@
-#Amazon Clone (Dockerized)
+# Amazon Clone DevOps Project
 
-## Project Description
-This is a static Amazon Clone built using HTML and CSS deployed using Docker.
+## Project Overview
+
+This project demonstrates a complete DevOps workflow by deploying an Amazon Clone application on AWS using Docker, Jenkins, Terraform, and Kubernetes.
+
+## Architecture
+
+GitHub → Jenkins → Docker → Kubernetes → AWS EC2
+
+## Technologies Used
+
+* Linux
+* Git & GitHub
+* Docker
+* Jenkins
+* Terraform
+* Kubernetes
+* AWS EC2
+* HTML
+* CSS
+
+## Project Structure
+
+Amazon-Clone-Docker/
+
+├── Dockerfile
+
+├── Jenkinsfile
+
+├── deploy.sh
+
+├── terraform/
+
+├── k8s/
+
+├── index.html
+
+├── style.css
+
+└── README.md
 
 ## Features
--Responsive UI 
--Docker containerization using Nginx
--Automated deployment using shell script
 
-## Docker setup
-
-### Build Image
-docker build -t amazon-clone .
-
-### Run Container
-docker run -d -p 8081:80 amazon-clone
-
-## Auto Deployment
-./deploy.sh
-
-## Acess
-http://localhost:8081
-
-## Tech Stack
--HTML
--CSS
--Docker
--Nginx
--Shell Scripting
+* Containerized application using Docker
+* Automated CI/CD pipeline using Jenkins
+* Infrastructure provisioning using Terraform
+* Kubernetes deployment with multiple replicas
+* Hosted on AWS EC2
 
